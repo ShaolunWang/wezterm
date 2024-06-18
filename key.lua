@@ -65,6 +65,11 @@ return {
 
 	{ key = 'c',   mods = 'LEADER',       action = wezterm.action({ SpawnTab = 'CurrentPaneDomain' }) },
 	{
+		key = 'c',
+		mods = 'CTRL|SHIFT',
+		action = wezterm.action({ CopyTo = 'Clipboard' }),
+	},
+	{
 		key = 'v',
 		mods = 'CTRL|SHIFT',
 		action = wezterm.action({ PasteFrom = 'Clipboard' }),

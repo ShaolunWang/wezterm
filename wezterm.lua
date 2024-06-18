@@ -23,6 +23,7 @@ local config = {
 	keys = require('key'),
 	set_environment_variables = {},
 	default_prog = { 'pwsh', '-NoLogo' },
+--	default_prog = { 'elvish'},
 }
 require('theme').apply(config)
 return config
