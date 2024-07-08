@@ -61,13 +61,13 @@ end)
 function M.apply(config)
 	--	config.color_scheme = 'TokyoNight'
 	--	config.color_scheme = 'Sea Shells'
-	config.font_size      = 12
-	--	config.color_scheme = 'Sea Shells (Gogh)'
-	config.color_scheme   = 'Ocean Dark (Gogh)'
+	config.font_size = 12
+	--config.color_scheme = 'Sea Shells (Gogh)'
+	--config.color_scheme = 'Ocean Dark (Gogh)'
 	-- config.color_scheme = 'Tender (Gogh)'
-	-- config.color_scheme = 'Neutron'
+	config.color_scheme = 'Tokyo Night'
 
-	config.font           = wezterm.font('BlexMono Nerd Font Mono')
+	config.font = wezterm.font('BlexMono Nerd Font Mono')
 
 	config.window_padding = {
 		left = '6px',
@@ -75,7 +75,7 @@ function M.apply(config)
 		top = '2px',
 		bottom = 0,
 	}
-	config.colors         = {
+	config.colors = {
 		tab_bar = {
 			-- The color of the strip that goes along the top of the window
 			-- (does not apply when fancy tab bar is in use)
